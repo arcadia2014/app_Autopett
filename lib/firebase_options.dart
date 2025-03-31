@@ -41,48 +41,54 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBwjyfjp4WcY2BlzWnjaaeSX-di2c1gWs4',
-    appId: '1:91405691226:web:447bd4452de55aee756b63',
-    messagingSenderId: '91405691226',
-    projectId: 'integradoratest',
-    authDomain: 'integradoratest.firebaseapp.com',
-    storageBucket: 'integradoratest.firebasestorage.app',
-    measurementId: 'G-TEBVW0EZ6F',
+    apiKey: 'AIzaSyCxiTz5FoPtoofATXrpbcWhWpYMP_5AFsc',
+    appId: '1:45133562959:web:469584549eb4ca1fedd63a',
+    messagingSenderId: '45133562959',
+    projectId: 'autopetutt',
+    authDomain: 'autopetutt.firebaseapp.com',
+    databaseURL: 'https://autopetutt-default-rtdb.firebaseio.com',
+    storageBucket: 'autopetutt.firebasestorage.app',
+    measurementId: 'G-Q2EPZL58JL',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD9fmcosKor9MVBC7z6Z01khlCzXq4P7rw',
-    appId: '1:91405691226:android:ec80ea4dcc3ea5d8756b63',
-    messagingSenderId: '91405691226',
-    projectId: 'integradoratest',
-    storageBucket: 'integradoratest.firebasestorage.app',
+    apiKey: 'AIzaSyAyu8DZ1d7Kw_8Mf5PVNt5KkO9vIx8xsbk',
+    appId: '1:45133562959:android:c15559e9f7669f46edd63a',
+    messagingSenderId: '45133562959',
+    projectId: 'autopetutt',
+    databaseURL: 'https://autopetutt-default-rtdb.firebaseio.com',
+    storageBucket: 'autopetutt.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAqT_8r7KsETi_MVjYvDsw6jYyzhWMtUQg',
-    appId: '1:91405691226:ios:3dd53446bd9fdfec756b63',
-    messagingSenderId: '91405691226',
-    projectId: 'integradoratest',
-    storageBucket: 'integradoratest.firebasestorage.app',
-    iosBundleId: 'com.example.autopetUtt',
+    apiKey: 'AIzaSyBqnKhVZVmzBdFnbV8mqIMsb4F-JbvqO90',
+    appId: '1:45133562959:ios:9934fd532bfb6d96edd63a',
+    messagingSenderId: '45133562959',
+    projectId: 'autopetutt',
+    databaseURL: 'https://autopetutt-default-rtdb.firebaseio.com',
+    storageBucket: 'autopetutt.firebasestorage.app',
+    iosBundleId: 'com.example.integradoraAppmovil3',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAqT_8r7KsETi_MVjYvDsw6jYyzhWMtUQg',
-    appId: '1:91405691226:ios:3dd53446bd9fdfec756b63',
-    messagingSenderId: '91405691226',
-    projectId: 'integradoratest',
-    storageBucket: 'integradoratest.firebasestorage.app',
-    iosBundleId: 'com.example.autopetUtt',
+    apiKey: 'AIzaSyBqnKhVZVmzBdFnbV8mqIMsb4F-JbvqO90',
+    appId: '1:45133562959:ios:9934fd532bfb6d96edd63a',
+    messagingSenderId: '45133562959',
+    projectId: 'autopetutt',
+    databaseURL: 'https://autopetutt-default-rtdb.firebaseio.com',
+    storageBucket: 'autopetutt.firebasestorage.app',
+    iosBundleId: 'com.example.integradoraAppmovil3',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBwjyfjp4WcY2BlzWnjaaeSX-di2c1gWs4',
-    appId: '1:91405691226:web:9a3929d9c8d5143b756b63',
-    messagingSenderId: '91405691226',
-    projectId: 'integradoratest',
-    authDomain: 'integradoratest.firebaseapp.com',
-    storageBucket: 'integradoratest.firebasestorage.app',
-    measurementId: 'G-KVY7QPY4SJ',
+    apiKey: 'AIzaSyCxiTz5FoPtoofATXrpbcWhWpYMP_5AFsc',
+    appId: '1:45133562959:web:a64c72aa2acbb423edd63a',
+    messagingSenderId: '45133562959',
+    projectId: 'autopetutt',
+    authDomain: 'autopetutt.firebaseapp.com',
+    databaseURL: 'https://autopetutt-default-rtdb.firebaseio.com',
+    storageBucket: 'autopetutt.firebasestorage.app',
+    measurementId: 'G-9F1SGN8FL4',
   );
+
 }

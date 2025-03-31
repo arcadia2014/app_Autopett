@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:firebase_core/firebase_core.dart'; // Importa Firebase
+// import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:integradora_appmovil3/screens/dispensador_screen.dart';
 import 'package:integradora_appmovil3/screens/register_horario_screen.dart';
-import 'package:integradora_appmovil3/service/bloc/notifications_bloc.dart';
+// import 'package:integradora_appmovil3/service/bloc/notifications_bloc.dart';
 import 'screens/welcome_screen.dart';
 import 'screens/register_screen.dart';
 import 'screens/home_screen.dart';
@@ -9,18 +11,11 @@ import 'screens/schedule_screen.dart';
 import 'screens/settings_screen.dart';
 import 'screens/register_pet_screen.dart';
 import 'screens/my_pet_screen.dart';
-void main() {
-  runApp(const MyApp());
 
-  MultiBlocProvider(
-   providers: [
-    BlocProvider(
-      create: (context) => NotificationsBloc(),
-    )
-   ],
-    child: Container(),
-  );
-   
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized(); 
+  await Firebase.initializeApp(); 
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -38,7 +33,7 @@ class MyApp extends StatelessWidget {
           titleLarge: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
         ),
       ),
-      initialRoute: '/', // Usamos rutas en lugar de home:
+      initialRoute: '/', 
       routes: {
         '/': (context) => const WelcomeScreen(), // Pantalla de inicio
         '/register': (context) => const RegisterScreen(), // Pantalla de registro
@@ -47,18 +42,19 @@ class MyApp extends StatelessWidget {
         '/settings': (context) => const SettingsScreen(), // Pantalla de ajustes
         '/register_pet': (context) => const RegistrarMascotaScreen(), // Pantalla de registro de mascota
         '/miMascota': (context) => const MiMascotaScreen(
-            nombre: '',
-            edad: '',
-            peso: '',
-            rasgos: '',
-            raza: '',
-            salud: '',
-            sexo: '',
-            image: '',
-          ),
-          '/horarioComida': (context) => const RegisterHorarioScreen(
-            fecha:'',
-          ),
+              nombre: '',
+              edad: '',
+              peso: '',
+              rasgos: '',
+              raza: '',
+              salud: '',
+              sexo: '',
+              image: '',
+            ),
+        '/horarioComida': (context) => const RegisterHorarioScreen(
+              fecha: '',
+            ),
+        '/estadoDispensador': (context) => const DispensadorScreen(),
       },
     );
   }

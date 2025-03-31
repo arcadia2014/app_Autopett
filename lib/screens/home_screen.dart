@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:integradora_appmovil3/screens/dispensador_screen.dart';
 import 'schedule_screen.dart';
 import 'settings_screen.dart';
 import 'menu_screen.dart'; // Se importa el archivo separado
@@ -16,6 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
     const MenuScreen(),
     const ScheduleScreen(),
     const SettingsScreen(),
+    const DispensadorScreen(),
   ];
 
   void _onItemTapped(int index) {

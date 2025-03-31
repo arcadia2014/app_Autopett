@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "45133562959",
+    "firebase_url": "https://autopetutt-default-rtdb.firebaseio.com",
+    "project_id": "autopetutt",
+    "storage_bucket": "autopetutt.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45133562959:android:59682cf73f36089cedd63a",
+        "android_client_info": {
+          "package_name": "com.example.app_movil_autopetutt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyu8DZ1d7Kw_8Mf5PVNt5KkO9vIx8xsbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45133562959:android:c15559e9f7669f46edd63a",
+        "android_client_info": {
+          "package_name": "com.example.integradora_appmovil3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyu8DZ1d7Kw_8Mf5PVNt5KkO9vIx8xsbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
